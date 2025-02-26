@@ -153,7 +153,7 @@ Our deployment plan is structured into clear phases:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/yourusername/AI_Powered_Smart_IDE_Assistant.git
+   https://github.com/shaktipriya13/Google-Girl-Hackathon-Ideathon-Round-2025.git
    cd AI_Powered_Smart_IDE_Assistant
    ```
 2. **Set Up the Backend Environment:**
