@@ -26,8 +26,10 @@ Backed by  **cutting-edge research and real-world data** , this solution is desi
 
 Developers often find themselves bogged down by time-consuming tasks such as:
 
-🔍 **Repetitive Debugging** – Fixing errors over and over again. `</br>`
-🧪 **Writing Redundant Test Cases** – Manually creating similar test scenarios.`</br>`
+🔍 **Repetitive Debugging** – Fixing errors over and over again. 
+
+🧪 **Writing Redundant Test Cases** – Manually creating similar test scenarios.
+
 ⚙️ **Managing Complex CI/CD Pipelines** – Handling deployments without automation
 
 These inefficiencies result in wasted hours that could be redirected toward innovative coding and faster product delivery. Our solution targets these pain points, aiming to boost productivity and enhance code quality while reducing developer frustration.
