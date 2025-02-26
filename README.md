@@ -26,7 +26,7 @@ Backed by  **cutting-edge research and real-world data** , this solution is desi
 
 Developers often find themselves bogged down by time-consuming tasks such as:
 
-🔍 **Repetitive Debugging** – Fixing errors over and over again. 
+🔍 **Repetitive Debugging** – Fixing errors over and over again.
 
 🧪 **Writing Redundant Test Cases** – Manually creating similar test scenarios.
 
@@ -36,19 +36,21 @@ These inefficiencies result in wasted hours that could be redirected toward inno
 
 ---
 
-## **Key Features:**
+---
+
+## Key Features
 
 ✔ **AI-Powered Code Generation**
-Leverages advanced LLMs like **GPT-4** and **CodeLlama** to transform natural language instructions into  **optimized, production-ready code** , reducing development time and effort.
+Leverages advanced LLMs (e.g.,  **GPT-4, CodeLlama** ) to convert natural language instructions into  **optimized, production-ready code** , minimizing manual coding effort.
 
 ✔ **Intelligent Debugging & Automated Testing**
-Identifies and resolves errors  **in real time** , automatically generates  **comprehensive unit tests** , and enhances code quality with minimal manual intervention.
+Identifies and resolves errors **in real time** and automatically generates  **comprehensive unit tests** , ensuring high-quality code with minimal manual intervention.
 
 ✔ **Seamless CI/CD Automation**
-Integrates **automated testing and deployment pipelines** directly within the development workflow, ensuring **faster, error-free releases** without the overhead of manual CI/CD management.
+Integrates automated testing and deployment pipelines directly within the development workflow, ensuring  **faster, error-free releases** .
 
 ✔ **Deep VS Code Integration**
-Designed to function  **natively within VS Code** , providing an intuitive, efficient experience that enhances productivity  **without disrupting existing workflows** .
+Designed to function  **natively within VS Code** , offering an intuitive, efficient experience that enhances productivity without disrupting existing workflows.
 
 ---
 
@@ -97,6 +99,88 @@ Our deployment plan is structured into clear phases:
 ![1740549651759](image/README/1740549651759.png)
 
 **Diagram: *Deployment Roadmap Timeline* – A PlantUML diagram to visualize the phases.**
+
+---
+
+
+
+## Environment Setup & Running the Code
+
+### **Prerequisites:**
+
+* **VS Code** with the necessary extensions installed.
+* **Python 3.9+** for the backend.
+* **Node.js** for developing the VS Code extension.
+* **Git** for version control.
+
+### Setting the OPENAI_API_KEY Environment Variable
+
+
+**On Windows (Command Prompt):**
+
+1. Open Command Prompt.
+2. Run the command:
+
+   ```
+   set OPENAI_API_KEY=your_api_key_here
+   ```
+3. To make it persistent:
+
+   * Right-click **This PC** → **Properties** → **Advanced system settings** → **Environment Variables…**
+   * Under **User variables** or  **System variables** , click  **New…** , enter `OPENAI_API_KEY` as the variable name, and your API key as the value.
+
+**On macOS/Linux (Terminal):**
+
+1. Open Terminal.
+2. Run the command:
+   ```
+   export OPENAI_API_KEY=your_api_key_here
+   ```
+3. To make this change permanent, add the export command to your shell configuration file (e.g., `.bashrc`, `.bash_profile`, or `.zshrc`):
+   ```
+   echo 'export OPENAI_API_KEY=your_api_key_here' >> ~/.bashrc
+   source ~/.bashrc
+   ```
+4. In your Python code, access the API key with:
+   ```
+   import os
+   api_key = os.getenv("OPENAI_API_KEY")
+   ```
+
+---
+
+### **Installation Steps:**
+
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/yourusername/AI_Powered_Smart_IDE_Assistant.git
+   cd AI_Powered_Smart_IDE_Assistant
+   ```
+2. **Set Up the Backend Environment:**
+   * Navigate to the backend directory:
+     ```
+     cd backend
+     ```
+   * Install dependencies:
+     ```
+     pip install -r requirements.txt
+     ```
+   * Run the backend service:
+     ```
+     python app.py
+     ```
+3. **Set Up the VS Code Extension:**
+   * Navigate to the `src` directory:
+     ```
+     cd ../src
+     ```
+   * Install frontend dependencies:
+     ```
+     npm install
+     ```
+   * Launch the extension in VS Code (using the VS Code Extension Development Host).
+4. **CI/CD Integration:**
+   * The repository includes a GitHub Actions workflow configuration (`.github/workflows/ci.yml`) that automatically runs tests and builds on each commit.
 
 ---
 
