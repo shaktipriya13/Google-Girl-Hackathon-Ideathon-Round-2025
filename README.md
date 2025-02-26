@@ -89,20 +89,7 @@ Our deployment plan is structured into clear phases:
 >
 > *Deployment Roadmap Timeline* – A horizontal PlantUML diagram to visualize the phases (see below).
 
-```plantuml
-@startuml
-title Deployment Roadmap Timeline
-left to right direction
-start
-:Research & Prototyping;
-:Beta Release on VS Code Marketplace;
-:Iterative Improvement;
-:Integrate CI/CD & Scale on Cloud;
-:Public Release;
-:Post-launch Monitoring & Updates;
-stop
-@enduml
-```
+![1740549651759](image/README/1740549651759.png)
 
 ---
 
