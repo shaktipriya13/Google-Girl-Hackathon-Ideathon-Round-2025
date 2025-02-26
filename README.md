@@ -1,4 +1,4 @@
-![1740568833957](image/README/1740568833957.png)
+![1740569059135](image/README/1740569059135.png)
 
 # AI-Powered Smart IDE Assistant
 
