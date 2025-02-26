@@ -102,8 +102,6 @@ Our deployment plan is structured into clear phases:
 
 ---
 
-
-
 ## Environment Setup & Running the Code
 
 ### **Prerequisites:**
@@ -114,7 +112,6 @@ Our deployment plan is structured into clear phases:
 * **Git** for version control.
 
 ### Setting the OPENAI_API_KEY Environment Variable
-
 
 **On Windows (Command Prompt):**
 
@@ -153,13 +150,13 @@ Our deployment plan is structured into clear phases:
 
 1. **Clone the Repository:**
    ```
-   https://github.com/shaktipriya13/Google-Girl-Hackathon-Ideathon-Round-2025.git
-   cd AI_Powered_Smart_IDE_Assistant
+   git clone https://github.com/shaktipriya13/Google-Girl-Hackathon-Ideathon-Round-2025.git
+   cd Google-Girl-Hackathon-Ideathon-Round-2025
    ```
 2. **Set Up the Backend Environment:**
    * Navigate to the backend directory:
      ```
-     cd backend
+     cd ai_module
      ```
    * Install dependencies:
      ```
