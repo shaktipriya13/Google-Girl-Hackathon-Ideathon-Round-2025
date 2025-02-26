@@ -52,7 +52,7 @@ Designed to function  **natively within VS Code** , providing an intuitive, effi
 
 ---
 
-## Technologies & Components :
+## Technologies & Components:
 
 🔹 **VS Code Extension (Frontend)**
    	 ▪ **Languages:** JavaScript/TypeScript
