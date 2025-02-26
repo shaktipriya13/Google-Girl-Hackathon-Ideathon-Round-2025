@@ -98,25 +98,6 @@ Our deployment plan is structured into clear phases:
 
 ---
 
-## Usage Instructions
-
-1. **Installation:**
-   * Clone the repository using Git:
-     ```bash
-     git clone https://github.com/yourusername/AI_Powered_Smart_IDE.git
-     ```
-   * Open the project in VS Code and install the required extensions.
-2. **Configuration:**
-   * Configure API keys for the AI module (e.g., OpenAI API key).
-   * Set up environment variables as detailed in the [Installation Guide](https://chatgpt.com/c/docs/INSTALL.md).
-3. **Running the Extension:**
-   * Launch the VS Code extension from the Command Palette.
-   * Start typing your code or comments, and the AI assistant will provide suggestions in real time.
-4. **CI/CD Integration:**
-   * The project includes GitHub Actions workflows to run tests and deploy changes automatically.
-
----
-
 ## References & Appendices
 
 **References:**
@@ -144,6 +125,7 @@ The data flow diagram outlines how user requests move through the system. When a
 
 ![1740568281622](image/README/1740568281622.png)
 
+---
 
 ## Future Enhancements
 
@@ -153,10 +135,4 @@ The data flow diagram outlines how user requests move through the system. When a
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](https://chatgpt.com/c/LICENSE).
-
----
-
-This README provides a comprehensive overview of my project, explaining the problem, solution, key features, technologies, deployment roadmap, and future work.
+ This README provides a comprehensive overview of my project, explaining the problem, solution, key features, technologies, deployment roadmap, and future work.
