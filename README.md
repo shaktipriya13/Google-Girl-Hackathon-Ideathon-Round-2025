@@ -32,42 +32,45 @@ These inefficiencies result in wasted hours that could be redirected toward inno
 
 ---
 
-## Key Features
+## **Key Features:**
 
-* **AI-Driven Code Generation:**
+✔ **AI-Powered Code Generation**
+Leverages advanced LLMs like **GPT-4** and **CodeLlama** to transform natural language instructions into  **optimized, production-ready code** , reducing development time and effort.
 
-  Convert natural language instructions into functional code snippets using GPT-4/CodeLlama.
-* **Automated Testing & Debugging:**
+✔ **Intelligent Debugging & Automated Testing**
+Identifies and resolves errors  **in real time** , automatically generates  **comprehensive unit tests** , and enhances code quality with minimal manual intervention.
 
-  Generate and run unit tests automatically and provide intelligent error detection with real-time fixes.
-* **Integrated CI/CD Automation:**
+✔ **Seamless CI/CD Automation**
+Integrates **automated testing and deployment pipelines** directly within the development workflow, ensuring **faster, error-free releases** without the overhead of manual CI/CD management.
 
-  Seamlessly trigger tests and deployments through built-in CI/CD pipelines.
-* **VS Code Integration:**
-
-  A user-friendly extension that fits naturally into developers' existing workflows.
+✔ **Deep VS Code Integration**
+Designed to function  **natively within VS Code** , providing an intuitive, efficient experience that enhances productivity  **without disrupting existing workflows** .
 
 ---
 
-## Technologies & Components
+## Technologies & Components :
 
-* **VS Code Extension (Frontend):**
-  * **Languages:** JavaScript/TypeScript
-  * **Tools:** VS Code Extension API
-  * **Purpose:** Provides a smooth, interactive UI for AI-powered assistance.
-* **Local Backend Service:**
-  * **Language:** Python
-  * **Frameworks:** FastAPI or Django
-  * **Purpose:** Acts as the bridge between the VS Code extension and the AI module.
-* **AI Module:**
-  * **Models:** OpenAI GPT-4, CodeLlama, or Hugging Face Transformers
-  * **Purpose:** Processes natural language requests to generate code, debug errors, and create tests.
-* **CI/CD Integration:**
-  * **Tools:** GitHub Actions or Jenkins
-  * **Purpose:** Automates testing and deployment workflows.
-* **Cloud & Scaling:**
-  * **Hosting:** AWS (EC2 or Lambda)
-  * **Scaling Parameters:** Designed to handle up to 1,000 requests per second during peak usage.
+🔹 **VS Code Extension (Frontend)**
+   	 ▪ **Languages:** JavaScript/TypeScript
+   	 ▪ **Tools:** VS Code Extension API
+    	 ▪ **Purpose:** Provides a smooth, interactive UI for AI-powered assistance.
+
+🔹 **Local Backend Service**
+    	▪ **Language:** Python
+    	▪ **Frameworks:** FastAPI or Django
+    	▪ **Purpose:** Acts as the bridge between the VS Code extension and the AI module.
+
+🔹 **AI Module**
+    	▪ **Models:** OpenAI GPT-4, CodeLlama, or Hugging Face Transformers
+    	▪ **Purpose:** Processes natural language requests to generate code, debug errors, and create tests.
+
+🔹 **CI/CD Integration**
+    	▪ **Tools:** GitHub Actions or Jenkins
+    	▪ **Purpose:** Automates testing and deployment workflows.
+
+🔹 **Cloud & Scaling**
+    	▪ **Hosting:** AWS (EC2 or Lambda)
+    	▪ **Scaling Parameters:** Designed to handle up to **1,000 requests per second** during peak usage.
 
 ---
 
@@ -87,11 +90,9 @@ Our deployment plan is structured into clear phases:
 5. **Public Release:**
    * Roll out the full feature set publicly with continuous monitoring and updates.
 
-> **Suggested Diagram:**
->
-> *Deployment Roadmap Timeline* – A horizontal PlantUML diagram to visualize the phases (see below).
-
 ![1740549651759](image/README/1740549651759.png)
+
+**Diagram: *Deployment Roadmap Timeline* – A horizontal PlantUML diagram to visualize the phases.**
 
 ---
 
@@ -127,13 +128,20 @@ Our deployment plan is structured into clear phases:
 * **GitHub Public Repositories:** Filtered dataset (e.g., 159GB of Python code from 54M repositories).
 * **Stack Overflow Developer Survey:** Insights into developer workflows and challenges.
 
-**Supporting Diagrams:**
+## **Supporting Diagrams:**
 
-* **High-Level Architecture Diagram:** Visualizes the interactions between the VS Code extension, backend service, AI module, and CI/CD pipelines.
-* **Data Flow Diagram:** Illustrates how user requests are processed end-to-end.
-* **Deployment Roadmap Timeline:** Provided above with PlantUML code.
+## 1. High-Level Architecture Diagram
 
----
+This diagram provides an overview of how different components interact in the  **AI-Powered Smart IDE Assistant** . The **developer** uses the  **VS Code extension** , which sends requests to the  **local backend service** . The backend processes these requests by leveraging the **AI module** for code generation, debugging, and testing. Additionally, the **backend integrates with the CI/CD pipeline** to automate testing and deployment while storing necessary data in  **cloud storage** , ensuring seamless and efficient development.
+
+  ![1740568081717](image/README/1740568081717.png)
+
+### **2. Data Flow Diagram:**
+
+The data flow diagram outlines how user requests move through the system. When a **developer** enters a request (e.g., code generation or debugging), the **VS Code extension** forwards it to the  **backend service** , which then queries the **AI module** for intelligent processing. The AI module returns the processed response to the backend, which forwards it to the  **extension for display** . If required, the **CI/CD pipeline** is triggered for automation, and the **cloud storage** is used for storing deployment artifacts or logs.
+
+![1740568281622](image/README/1740568281622.png)
+
 
 ## Future Enhancements
 
@@ -149,4 +157,4 @@ This project is licensed under the [MIT License](https://chatgpt.com/c/LICENSE).
 
 ---
 
-This README provides a comprehensive overview of our project, explaining the problem, solution, key features, technologies, deployment roadmap, and future work. It’s designed to be a killer read for developers and stakeholders alike.
+This README provides a comprehensive overview of my project, explaining the problem, solution, key features, technologies, deployment roadmap, and future work.
