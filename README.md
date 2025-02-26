@@ -127,11 +127,16 @@ The data flow diagram outlines how user requests move through the system. When a
 
 ---
 
-## Future Enhancements
+## Future ideas to enhance the project and delve deeper:
 
-* **Multi-IDE Support:** Extend support to other popular IDEs like JetBrains or Neovim.
-* **Advanced AI Features:** Explore real-time collaboration, code refactoring suggestions, and enhanced error prediction.
-* **Web-Based Interface:** Develop a complementary web app for interactive circuit simulation of code workflows.
+**🔸Multi-IDE Support:**
+Existing AI assistants are predominantly available for VS Code. Although some tools offer limited support for JetBrains or Neovim, our approach is to create a **unified extension** that works seamlessly across multiple IDEs. This would allow for shared context and consistent AI insights regardless of the environment, enabling developers to switch platforms without losing functionality.
+
+🔸**Advanced AI Features:**
+Current solutions like GitHub Copilot primarily focus on code autocompletion and basic error detection. We propose to push the envelope by incorporating  **real-time collaborative coding** ,  **context-aware refactoring suggestions** , and **predictive error analysis** that not only detects issues but also anticipates potential pitfalls. By leveraging continuous learning from diverse codebases, our tool could provide proactive recommendations that adapt to both individual and team coding styles.
+
+🔸**Web-Based Interface:**
+While cloud-based IDEs like Replit and CodeSandbox exist, our innovation lies in developing a **dedicated web app** that offers interactive circuit simulation of code workflows. This interface would allow developers to visualize execution flows, monitor performance in real time, and even simulate code changes in a dynamic environment—features that go beyond current offerings.
 
 ---
 
