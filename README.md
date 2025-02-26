@@ -30,7 +30,7 @@ Developers often find themselves bogged down by time-consuming tasks such as:
 
 🧪 **Writing Redundant Test Cases** – Manually creating similar test scenarios.
 
-⚙️ **Managing Complex CI/CD Pipelines** – Handling deployments without automation
+⚙️ **Managing Complex CI/CD Pipelines** – Handling deployments without automation.
 
 These inefficiencies result in wasted hours that could be redirected toward innovative coding and faster product delivery. Our solution targets these pain points, aiming to boost productivity and enhance code quality while reducing developer frustration.
 
