@@ -94,7 +94,7 @@ Our deployment plan is structured into clear phases:
 
 ![1740549651759](image/README/1740549651759.png)
 
-**Diagram: *Deployment Roadmap Timeline* – A horizontal PlantUML diagram to visualize the phases.**
+**Diagram: *Deployment Roadmap Timeline* – A PlantUML diagram to visualize the phases.**
 
 ---
 
