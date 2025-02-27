@@ -210,7 +210,7 @@ The data flow diagram outlines how user requests move through the system. When a
 
 ---
 
-## Future ideas to enhance the project and delve deeper:
+## Future ideas to enhance the project and delve deeper :
 
 **🔸Multi-IDE Support:**
 
