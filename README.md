@@ -6,7 +6,7 @@
 
 I would be developing an **AI-Powered Smart IDE Assistant** that transforms the development experience within VS Code by integrating intelligent code generation, automated testing, advanced debugging, and CI/CD automation into one seamless environment. This solution streamlines repetitive tasks—such as debugging, writing boilerplate test cases, and managing deployment pipelines—so developers can focus on creativity and innovation.
 
-**How Our Solution Stands Out:**
+**How My Solution Stands Out:**
 
 🔹 **Comprehensive Functionality**
 Unlike existing tools that offer basic code autocompletion, this AI-powered assistant harnesses advanced LLMs (e.g.,  **GPT-4, CodeLlama** ) to transform  **natural language into functional code** , detect and fix  **errors in real time** , and  **automatically generate unit tests** —all within a single, streamlined platform.
@@ -57,7 +57,7 @@ Designed to function  **natively within VS Code** , offering an intuitive, effic
 ## Technologies & Components:
 
 🔹 **VS Code Extension (Frontend)**
-   	 ▪ **Languages:** JavaScript/TypeScript
+   	 ▪ **Languages:** JavaScript
    	 ▪ **Tools:** VS Code Extension API
     	 ▪ **Purpose:** Provides a smooth, interactive UI for AI-powered assistance.
 
@@ -226,4 +226,4 @@ While cloud-based IDEs like Replit and CodeSandbox exist, our innovation lies in
 
 ---
 
- This README provides a comprehensive overview of my project, explaining the problem, solution, key features, technologies, deployment roadmap, and future work.
+ This README provides a comprehensive overview of my project, explaining the problem, solution, key features, technologies, deployment roadmap, and future enhancements that could be done.
