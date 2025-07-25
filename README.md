@@ -4,7 +4,7 @@
 
 ## Overview
 
-We are developing an **AI-Powered Smart IDE Assistant** that transforms the development experience within VS Code by integrating intelligent code generation, automated testing, advanced debugging, and CI/CD automation into one seamless environment. This solution streamlines repetitive tasks—such as debugging, writing boilerplate test cases, and managing deployment pipelines—so developers can focus on creativity and innovation.
+I would be developing an **AI-Powered Smart IDE Assistant** that transforms the development experience within VS Code by integrating intelligent code generation, automated testing, advanced debugging, and CI/CD automation into one seamless environment. This solution streamlines repetitive tasks—such as debugging, writing boilerplate test cases, and managing deployment pipelines—so developers can focus on creativity and innovation.
 
 **How Our Solution Stands Out:**
 
